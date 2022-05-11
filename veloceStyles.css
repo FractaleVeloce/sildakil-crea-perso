@@ -1,0 +1,75 @@
+@import url('http://fonts.cdnfonts.com/css/cat-childs');
+/*'CAT Childs', sans-serif;*/
+@import url('http://fonts.cdnfonts.com/css/mofaze-del-monte');
+/*'MOFAZE DEL MONTE', sans-serif;*/
+@import url('http://fonts.cdnfonts.com/css/ambrosia-2');
+/*font-family: 'Ambrosia', sans-serif;*/
+@import url('http://fonts.cdnfonts.com/css/fantaisie-artistique');
+/*font-family: 'FantaisieArtistique', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+/*font-family: 'DM Serif Display', serif;*/
+
+@import url('http://fonts.cdnfonts.com/css/marchesa');
+@import url('http://fonts.cdnfonts.com/css/odalisque-nf');
+@import url('http://fonts.cdnfonts.com/css/rivanna-nf');
+
+/*experiments
+@import url('http://fonts.cdnfonts.com/css/marchesa');
+font-family: 'Marchesa', sans-serif;
+@import url('http://fonts.cdnfonts.com/css/night-at-the-opera-nf');
+font-family: 'Night At The Opera NF', sans-serif;
+@import url('http://fonts.cdnfonts.com/css/odalisque-nf');
+font-family: 'Odalisque NF', sans-serif;
+@import url('http://fonts.cdnfonts.com/css/rivanna-nf');
+font-family: 'Rivanna NF', sans-serif;
+*/
+
+
+.red{
+    border: solid red 1px;
+}
+.width100{
+    width: 100%;
+}
+.width50{
+    width: 50%;
+}
+.width33{
+    width: 33%;
+}
+.centered{
+    display: grid;
+    place-items: center;
+}
+.flex{
+    display: flex;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.marginTop{
+    margin-top: 20px;
+}
+.borderTop{
+    border-top: solid black 1px;
+}
+.borderRight{
+    border-right: solid black 1px;
+}
+
+.textPadding{
+    padding: 4px;
+}
+.boxPadding{
+    padding: 6px;
+}
+.leftMargin{
+    margin-left: 20px;
+}
