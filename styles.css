@@ -7,35 +7,51 @@
 body{
     max-width: 100vw;
     padding: 0 15%;
-    background-color: #d4cbc2;
-    background-image: url("https://www.transparenttextures.com/patterns/project-paper.png");
+    background-color: #ebdfcc;
+    background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
     user-select: none;
 }
 h1{
     font-family: 'Ambrosia', sans-serif;
-    font-size: min(20vw, 160px);
-    margin: 30px;
+    font-size: min(15vw, 130px);
+    color: #2B2B27;
+    text-shadow: #2B2B27 0px 0px 2px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.bigLetter{
+    font-family: 'Ambrosia', sans-serif;
+    font-size: min(18vw, 160px);
+}
+.daily{
+    font-family: 'Ambrosia', sans-serif;
+    font-size: min(14vw, 30px);
+    letter-spacing: 1px;
+    position: relative;
+    right: 10%;
+    bottom: 50%; /* Descendre ici */
 }
 .headerFull{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: double black 3px;
-    border-bottom: double black 3px;
-    font-size: 20px;
+    border-top: double #2B2B27 3px;
+    border-bottom: double #2B2B27 3px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2B2B27;
     margin-bottom: 20px;
 }
 .headerSmall{
     width: 20%;
 }
-
 .headerLarge{
     width: 60%;
 }
 .sectionSmall{
     width: 20%;
-    border-left: solid black 1px;
-    border-right: solid black 1px;
+    border-left: solid #2B2B27 1px;
+    border-right: solid #2B2B27 1px;
 }
 .sectionLarge{
     width: 60%;
@@ -45,9 +61,10 @@ h1{
 }
 .sideTitle{
     font-weight: bold; 
-    color: white;
+    color: #ebdfcc;
     font-size: 20px;
-    background-color: black;
+    letter-spacing: 1px;
+    background-color: #2B2B27;
 }
 ul{
     width: 100%;
@@ -55,50 +72,69 @@ ul{
 }
 .subTitle{
     font-family: 'DM Serif Display', serif;
+    color: #2B2B27;
     font-size: 20px;
     letter-spacing: 2px;
 }
 .specsTitle{
     font-family: 'Rivanna NF', sans-serif;
+    color: #2B2B27;
     font-size: 28px;
 }
 .firstTitle{
-    /* font-family: 'CAT Childs', sans-serif; */
     font-family: 'Marchesa', sans-serif;
-    font-size: 26px;
+    color: #2B2B27;
+    font-size: 22px;
     letter-spacing: 1px;
 }
 .basicFont{
     font-family: 'DM Serif Display', serif;
-    font-size: 18px;
-    text-justify: auto;
+    color: #2B2B27;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 1px;
     /* color: blue; */
 }
 .idFont{
     font-family: 'DM Serif Display', serif;
-    font-size: 16px;
+    color: #2B2B27;
+    font-size: 14px;
 }
 .secondTitle{
-    /* font-family: 'FantaisieArtistique', sans-serif; */
     font-family: 'Odalisque NF', sans-serif;
-    font-size: 26px;
-    letter-spacing: 1px;
+    color: #2B2B27;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
 .avatar{
-    border: dotted red 1px;
+    height: 200px;
+    border: dashed #2B2B27 2px;
+    font-style: italic;
+    text-align: center;
 }
 .inputName{
     border: none;
-    background-color: #d4cbc2;
+    background-color: transparent;
 }
 .ageInput{
     width: 60%;
     display: inline;
     border: none;
-    background-color: #d4cbc2;
+    background-color: transparent;
 }
-.svg{
+.decoTop{
+    width: 100%;
+    height: 20px;
+    background-image: url(images/deco1.svg);
+    background-repeat: repeat-x;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.decoBottom{
+    width: 100%;
+    height: 20px;
     background-image: url(images/deco2.svg);
-    background-repeat: repeat;
-    height: ;
+    background-repeat: repeat-x;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

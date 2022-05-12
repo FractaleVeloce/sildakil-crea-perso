@@ -8,21 +8,13 @@
 /*font-family: 'FantaisieArtistique', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 /*font-family: 'DM Serif Display', serif;*/
-
 @import url('http://fonts.cdnfonts.com/css/marchesa');
+/*font-family: 'Marchesa', sans-serif; */
 @import url('http://fonts.cdnfonts.com/css/odalisque-nf');
+/*font-family: 'Odalisque NF', sans-serif; */
 @import url('http://fonts.cdnfonts.com/css/rivanna-nf');
+/*font-family: 'Rivanna NF', sans-serif; */
 
-/*experiments
-@import url('http://fonts.cdnfonts.com/css/marchesa');
-font-family: 'Marchesa', sans-serif;
-@import url('http://fonts.cdnfonts.com/css/night-at-the-opera-nf');
-font-family: 'Night At The Opera NF', sans-serif;
-@import url('http://fonts.cdnfonts.com/css/odalisque-nf');
-font-family: 'Odalisque NF', sans-serif;
-@import url('http://fonts.cdnfonts.com/css/rivanna-nf');
-font-family: 'Rivanna NF', sans-serif;
-*/
 
 
 .red{
@@ -58,18 +50,23 @@ font-family: 'Rivanna NF', sans-serif;
     margin-top: 20px;
 }
 .borderTop{
-    border-top: solid black 1px;
+    border-top: solid #2B2B27 1px;
 }
 .borderRight{
-    border-right: solid black 1px;
+    border-right: solid #2B2B27 1px;
 }
-
 .textPadding{
     padding: 4px;
 }
 .boxPadding{
     padding: 6px;
 }
+.leftPadding{
+    padding-left: 6px;
+}
 .leftMargin{
     margin-left: 20px;
+}
+.underline{
+    text-decoration: underline 1px;
 }
